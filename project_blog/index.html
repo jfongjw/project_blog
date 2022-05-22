@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outdoor Living</title>
+  <!--CSS link goes here-->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    #nestedGrid{
+      display:grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 100%;
+      /* border: 1px solid lightgrey; */
+    }
+
+    .photoBox{
+      width: 336px;
+      height:200px;
+      /* border:1px solid lightgrey; */
+    }
+
+    #one{
+      background-image: url('image/Class-C.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header box">
+      <h1>Outdoor Living</h1>
+    </div>
+    <div class="sidebar box">
+      <h2>Blog Post</h2>
+      <nav>
+        <ul>
+          <li><a href="blog-post001.html">How to buy an RV</a></li>
+          <li><a href="blog-post002.html">Types of RV</a></li>
+          <li><a href="blog-post003.html">Upcoming Blog</a></li>
+        </ul>
+      </nav>
+      <button></button>
+    </div>
+    <div class="content box">
+      <div id="nestedGrid">
+        <div id="one" class="photoBox"></div>
+      </div>
+    </div>
+    <div class="footer box">
+      <h6>by Joey Fong © All rights reserved 2022</h6>
+    </div>
+  </div>
+
+</body>
+</html>
